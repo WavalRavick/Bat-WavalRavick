@@ -1,0 +1,118 @@
+/* Meu primeiro arquvo css */
+
+/*seletor{
+    propriedade: valor;
+    propriedade2: valor2;
+}*/
+/*tags*/
+p{
+    color: rgb(215, 215, 240);
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    text-shadow: 5px 5px 5px #111111;
+
+}
+
+body{
+    background-color: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
+}
+
+header{
+    background-color: rgb(25, 87, 138);
+    background-image: -webkit-linear-gradient(rgb(31, 50, 66), rgb(25, 87, 138));
+    height: 90px; 
+    margin: 0 0px 0 0;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(25, 87, 138);
+    background-image: -webkit-linear-gradient(rgb(25, 87, 138), rgb(17, 23, 27));
+    height: 30px;
+    text-align: center;
+    padding: 10px
+
+}
+
+h1{
+    color: rgb(37, 152, 197);
+    text-align: left;
+    text-shadow: 5px 5px 5px #111111;
+    margin: -80px 0 250px 0;
+}
+
+a{
+    color: rgb(215, 215, 240);
+    font-size: 18.5px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    text-shadow: 1px 1px 1px #111111;
+    
+}
+
+/*IDS*/
+#principal{  
+    background-image: url('demon-slayer-desktop-6.jpg');
+    clear: both;
+    background-size: 100%;
+    min-height: 300px;
+    padding: 100px;
+    
+}
+
+#logo{
+    float: left;
+
+}
+
+#menu{
+    margin-top: 30px;
+    float: right;
+}
+#menu a{
+    margin-top: 30px;
+    padding: 40px 10px;
+    text-decoration: none;
+    color:rgb(215, 215, 240);
+    text-shadow: 1px, 1px #111111;
+}
+#menu a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(25, 87, 138);
+}
+
+#bat p{
+    padding: 20px 100px;    
+}
+
+
+
+
+
+/*#div_direita{
+    background-color: darkslategray;
+    min-height: 200px;
+    width: 40%;
+    float: right;
+}*/
+
+/*class*/
+.container{
+    width: 960px;
+    margin: 0 25px;
+    
+}
+
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px, 100px, 50px, 100px;
+}
+
+
