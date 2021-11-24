@@ -1,27 +1,13 @@
 /* Meu primeiro arquvo css */
-
-/*seletor{
-    propriedade: valor;
-    propriedade2: valor2;
-}*/
-/*tags*/
-p{
-    color: rgb(215, 215, 240);
-    font-size: 25px;
-    font-family: 'Times New Roman';
-    text-align: justify;
-    text-shadow: 5px 5px 5px #111111;
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
 }
 
 body{
     background-color: #000000;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: helvetica, arial;
 }
 
 header{
@@ -38,7 +24,14 @@ footer{
     height: 30px;
     text-align: center;
     padding: 10px
+}
 
+p{
+    color: rgb(215, 215, 240);
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+    text-shadow: 5px 5px 5px #111111;
 }
 
 h1{
@@ -54,28 +47,25 @@ a{
     font-family: 'Times New Roman';
     text-align: justify;
     text-shadow: 1px 1px 1px #111111;
-    
 }
-
 /*IDS*/
 #principal{  
     background-image: url('demon-slayer-desktop-6.jpg');
     clear: both;
     background-size: 100%;
     min-height: 300px;
-    padding: 100px;
-    
+    padding: 100px;  
 }
 
 #logo{
     float: left;
-
 }
 
 #menu{
     margin-top: 30px;
     float: right;
 }
+
 #menu a{
     margin-top: 30px;
     padding: 40px 10px;
@@ -83,6 +73,7 @@ a{
     color:rgb(215, 215, 240);
     text-shadow: 1px, 1px #111111;
 }
+
 #menu a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     color: rgb(25, 87, 138);
@@ -92,27 +83,14 @@ a{
     padding: 20px 100px;    
 }
 
-
-
-
-
-/*#div_direita{
-    background-color: darkslategray;
-    min-height: 200px;
-    width: 40%;
-    float: right;
-}*/
-
 /*class*/
 .container{
-    width: 960px;
-    margin: 0 25px;
-    
+    width: 1200px;
+    margin: 0 25px;  
 }
 
 .efeito{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 50px, 100px, 50px, 100px;
+    width: 1090px;
 }
-
-
