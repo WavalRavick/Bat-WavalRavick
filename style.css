@@ -85,12 +85,12 @@ a{
 
 /*class*/
 .container{
-    width: 1200px;
+    box-sizing: border-box;
     margin: 0 25px;  
 }
 
 .efeito{
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 50px, 100px, 50px, 100px;
-    width: 1090px;
 }
